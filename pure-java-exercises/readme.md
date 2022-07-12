@@ -10,7 +10,7 @@
     
     - [Conditionals](#conditionals)
     
-    - [Arrays)(#arrays)
+    - [Arrays](#arrays)
 
 ## Beginner
 
