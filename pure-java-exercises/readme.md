@@ -544,7 +544,3 @@ complexity is `n * n`. An algorithm with a time complexity of `O(n^2)` may also 
 proportionally to the square of `n`.
 
 **Location**: `exercises.beginner.arrays.ArrayIteration.bubbleSort`
-
-## Intermediate
-
-## Advanced
