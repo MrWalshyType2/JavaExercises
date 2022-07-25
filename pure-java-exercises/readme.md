@@ -10,7 +10,7 @@
     
     - [Conditionals](#conditionals)
     
-    - [Arrays)(#arrays)
+    - [Arrays](#arrays)
 
 ## Beginner
 
@@ -38,7 +38,7 @@ The `Results` class has been created for you with 5 instance variables already p
 
 For `displayResults()`, the output to the console must contain the following fragments, they may be in any order:
 
-**Header**
+*Header*
 
 ```
 ###############
@@ -46,7 +46,7 @@ For `displayResults()`, the output to the console must contain the following fra
 ###############
 ```
 
-**Body**
+*Body*
 
 ```
 PHYSICS: 104
@@ -54,7 +54,7 @@ CHEMISTRY: 134
 BIOLOGY: 97
 ```
 
-**Footer**
+*Footer*
 
 ```
 TOTAL SCORE: 335/450
@@ -544,7 +544,3 @@ complexity is `n * n`. An algorithm with a time complexity of `O(n^2)` may also 
 proportionally to the square of `n`.
 
 **Location**: `exercises.beginner.arrays.ArrayIteration.bubbleSort`
-
-## Intermediate
-
-## Advanced
