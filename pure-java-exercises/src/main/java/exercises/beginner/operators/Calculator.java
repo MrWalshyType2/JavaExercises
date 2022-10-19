@@ -18,12 +18,12 @@ public class Calculator {
 		throw new RuntimeException("Implement me");
 	}
 	
-	// TODO: Division of two numbers
+	// TODO: Multiplication of two numbers
 	public double multiply(double num1, double num2) {
 		throw new RuntimeException("Implement me");
 	}
 	
-	// TODO: Multiplication of two numbers
+	// TODO: Division of two numbers
 	public double divide(double num1, double num2) {
 		throw new RuntimeException("Implement me");
 	}
