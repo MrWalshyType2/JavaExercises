@@ -88,15 +88,15 @@ class ShapesTest {
 
 	@Test
 	void testPrintZigZag() throws UnsupportedEncodingException {
-		String expected = "#\r\n"
-				+ " #\r\n"
-				+ "# \r\n"
-				+ " #\r\n"
-				+ "#\r\n"
+		String expected1 = "# \n"
+				+ " #\n"
+				+ "# \n"
+				+ " #\n"
+				+ "# \n"
 				+ " #";
 		shapes.printZigZag();
-		assertTrue("Expected output to contain:\n\n%s\n\nActually printed:\n\n%s\n\n".formatted(expected, stdoutReader.read()),
-				stdoutReader.contains(expected));
+		assertTrue("Expected output to contain:\n\n%s\n\nActually printed:\n\n%s\n\n".formatted(expected1, stdoutReader.read()),
+				stdoutReader.contains(expected1));
 	}
 
 	@Test
