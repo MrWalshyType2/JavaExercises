@@ -6,19 +6,32 @@ public class Results {
 	public int chemistryScore;
 	public int biologyScore;
 	
-	public int totalScore;
-	public int percentage;
+	public int totalScore = physicsScore+chemistryScore+biologyScore;
+	public int percentage = (int) Math.round(totalScore/4.5);
 	
 	public void displayResults() {
-		throw new RuntimeException("Implement me");
+		printHeader();
+		
+		System.out.println("Physics: " + physicsScore);
+		System.out.println("Chemistry: " + chemistryScore);
+		System.out.println("Biology: " + biologyScore);
+		
+		System.out.println("\nTotal Score: " + totalScore +"/450");
+		System.out.println(displayPercentage());
 	}
 	
 	/**
-	 * Prints the total score of all exams as a percentage from 1 to 100.
+	 * Returns the total score of all exams as a percentage from 1 to 100.
 	 * 
-	 * @return
+	 * @return String
 	 */
-	public void displayPercentage() {
-		throw new RuntimeException("Implement me");
+	public String displayPercentage() {
+		return percentage + "%";
+	}
+	
+	private static void printHeader() {
+		String header = "\n# EXAM SCORES #\n";
+		String breaker = "#".repeat(header.length());
+		System.out.println(breaker + header + breaker);
 	}
 }

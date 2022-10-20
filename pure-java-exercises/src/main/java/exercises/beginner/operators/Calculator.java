@@ -1,7 +1,7 @@
 package exercises.beginner.operators;
 
 public class Calculator {
-	
+
 	/**
 	 * Returns the sum of two numbers.
 	 * 
@@ -15,16 +15,22 @@ public class Calculator {
 	
 	// TODO: Subtraction o     f two numbers
 	public double subtract(double num1, double num2) {
-		throw new RuntimeException("Implement me");
+		return num1-num2;
 	}
 	
 	// TODO: Multiplication of two numbers
 	public double multiply(double num1, double num2) {
-		throw new RuntimeException("Implement me");
+		return num1*num2;
 	}
 	
 	// TODO: Division of two numbers
 	public double divide(double num1, double num2) {
-		throw new RuntimeException("Implement me");
+		if(num2 == 0) {
+			throw new ArithmeticException("Cannot Divide by Zero");
+		}
+		else {
+			return num1/num2;
+		}
 	}
+
 }
